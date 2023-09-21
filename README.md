@@ -1,4 +1,4 @@
-# MercuryWorks Front End Skills Assessment
+# Merge-images
 
 ## 🥞 Stack
 
