@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+
+  &:root {
+    font-size: 16px;
+
+    @include mediaQuery(max, $tablet) {
+      font-size: 18px;
+    }
+  }
+
+  // Safari Smooth Scrolling
+  @media not all and (min-resolution: 0.001dpcm) {
+    @include mediaQuery(max, $tablet) {
+      @supports (-webkit-appearance: none) {
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+  }
+}
+
+html,
+body {
+  color: $text;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+button {
+  color: $white;
+}
+
+@include mediaQuery(max, $smallMobile) {
+  :not(.showScrollBar)::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+}
+
+input {
+  background: white;
+}

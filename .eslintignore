@@ -1,0 +1,5 @@
+# Ignore folders
+build/*
+config/*
+scripts/*
+node_modules/*

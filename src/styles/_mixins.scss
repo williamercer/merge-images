@@ -1,0 +1,16 @@
+@mixin mediaQuery($minOrMax, $val) {
+  @media only screen and (#{$minOrMax}-width: $val) {
+    @content;
+  }
+}
+
+@mixin mediaQueryAnd($min, $max) {
+  @media only screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin transition($transitionProperty) {
+  transition: $transitionProperty $standardTransitionDuration
+    $standardTransitionTimingFunction;
+}

@@ -1,0 +1,26 @@
+{
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "window.zoomLevel": 0,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "prettier.bracketSpacing": false,
+  "html.format.contentUnformatted": "",
+  "html.format.endWithNewline": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnType": true,
+  // "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.esbenp.prettier-vscode": true
+  },
+  "files.insertFinalNewline": true
+}
